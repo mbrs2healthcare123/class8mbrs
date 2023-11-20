@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Portal</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times;
+            margin: 20px;
+            background-color: #000000;
+            color: #333;
+        }
+
+        h1 {
+            color: #4CAF50;
+        }
+
+        h2 {
+            color:#7031bd;
+            background-color: #fff;
+            border-radius: 32px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #0000004b;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: #fff;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #7031bd;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        /* Add your actual logo URLs here */
+        #patientLogo {
+            width: 150px;
+            height: 150px;
+            background-color: #fff;
+            margin-bottom: 20px;
+        }
+        img {
+            border-radius: 32px;
+
+
+
+
+        }
+
+
+        #doctorLogo {
+            width: 150px;
+            height: 150px;
+            background-color: #fff;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1><left><img src="title.png"
+        height="150px"
+        width="350px"></left></h1>
+
+    <h2>Patient's desk</h2>
+    
+    <form id="patientForm">
+        <label for="specialist">Find Healthcare Specialist:</label>
+        <input type="text" id="specialist" name="specialist" placeholder="Enter specialist name">
+
+        <label for="consultation">Virtual Consultation:</label>
+        <button onclick="startVirtualConsultation()">Start Virtual Consultation</button>
+
+        <label for="eWallet">Link E-Wallet:</label>
+        <input type="text" id="eWallet" name="eWallet" placeholder="Enter e-wallet information">
+
+        <label for="uploadFile">Upload Prescription/Reports:</label>
+        <input type="file" id="uploadFile" name="uploadFile">
+
+        <button type="submit">Submit</button>
+    </form>
+    <center><img src="https://patientexperience.mediclinicinfohub.co.za/resources/front-end/images/MC_LOOP_03_PHYSICIAN_v1.gif"/></center>
+
+    
+    <script>
+        function startVirtualConsultation() {
+            // Implement virtual consultation functionality
+            alert('Virtual Consultation started.');
+        }
+
+       
+    </script>
+
+</body>
+</html>
